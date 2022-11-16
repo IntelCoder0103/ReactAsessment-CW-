@@ -1,0 +1,17 @@
+.product-name {
+    font-size: 14px;
+}
+
+.price {
+    font-size: 10px;
+}
+
+.price,
+.product-name {
+    font-family: Arial;
+    color: #333;
+}
+
+.carousel-arrow {
+    cursor: pointer;
+}
