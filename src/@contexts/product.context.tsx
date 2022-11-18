@@ -6,9 +6,9 @@ import React, {
 } from "react";
 import { reduce } from "underscore";
 import { IProduct } from "../@types/product";
-import { products as initialProducts } from "../data.sample";
+import { demoProducts as initialProducts } from "../data.sample";
 
-interface IProductContextProps {
+export interface IProductContextProps {
     products: IProduct[];
     addProduct: (product: IProduct) => void;
     editProduct: (product: IProduct) => void;
